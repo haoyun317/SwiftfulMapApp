@@ -15,6 +15,7 @@ struct LocationsView: View {
     
     var body: some View {
         ZStack {
+            // 去看一下 iOS 17 Map的改動
             Map(coordinateRegion: $vm.mapRegion)
                 .ignoresSafeArea()
         }
