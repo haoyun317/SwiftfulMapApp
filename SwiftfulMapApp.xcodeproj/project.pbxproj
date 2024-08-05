@@ -15,6 +15,7 @@
 		852ED3D02C5F193A0065225F /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED3CF2C5F19390065225F /* LocationsDataService.swift */; };
 		852ED3D22C5F1B950065225F /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED3D12C5F1B950065225F /* LocationsView.swift */; };
 		852ED3D42C5F209E0065225F /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED3D32C5F209E0065225F /* LocationsViewModel.swift */; };
+		852ED3F22C605DCA0065225F /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852ED3F12C605DCA0065225F /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		852ED3CF2C5F19390065225F /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		852ED3D12C5F1B950065225F /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		852ED3D32C5F209E0065225F /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		852ED3F12C605DCA0065225F /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				852ED3D12C5F1B950065225F /* LocationsView.swift */,
+				852ED3F12C605DCA0065225F /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				852ED3D02C5F193A0065225F /* LocationsDataService.swift in Sources */,
+				852ED3F22C605DCA0065225F /* LocationsListView.swift in Sources */,
 				852ED3D42C5F209E0065225F /* LocationsViewModel.swift in Sources */,
 				852ED3BC2C5F12000065225F /* ContentView.swift in Sources */,
 				852ED3D22C5F1B950065225F /* LocationsView.swift in Sources */,
