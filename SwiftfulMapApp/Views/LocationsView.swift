@@ -26,6 +26,9 @@ struct LocationsView: View {
                 locationsPreviewStack //下面帶按鈕的那一層
             }
         }
+        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
+            LocationDetailView(location: location)
+        }
     }
 }
 
@@ -78,7 +81,6 @@ extension LocationsView {
                         vm.showNextLocation(location: location)
                     }
             }
-
         })
     }
     private var locationsPreviewStack: some View {
